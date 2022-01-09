@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Social Media Dashboard, Light and Dark Theme Switcher"
+    />
+    <meta
+      name="keywords"
+      content="HTML5, CSS3, JS. JavaScript, ES6, Dark Theme, Dashboard"
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Frontend Mentor | Social Media Dashboard</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="flex">
+        <div>
+          <h1 class="header__title">Social Media Dashboard</h1>
+          <p class="header__subtitle">Total Followers: 23,004</p>
+        </div>
+        <div class="theme flex">
+          <span class="theme__text">Dark Mode</span>
+          <button class="theme__btn flex" id="toggle-mode">
+            <span class="theme__btn-circle" id="circle"></span>
+          </button>
+        </div>
+      </header>
+      <section class="social__cards">
+        <div class="card card-f flex-center">
+          <div class="card__header flex">
+            <img src="./images/icon-facebook.svg" alt="Facebook Logo" />
+            <span>@nathanf</span>
+          </div>
+          <div class="card__body">
+            <p>1987</p>
+            <span>Followers</span>
+          </div>
+          <div class="card__footer flex">
+            <img src="./images/icon-up.svg" alt="Up Arrow" />
+            <span>12 Today</span>
+          </div>
+        </div>
+        <div class="card card-t flex-center">
+          <div class="card__header flex">
+            <img src="./images/icon-twitter.svg" alt="Twitter Logo" />
+            <span>@nathanf</span>
+          </div>
+          <div class="card__body">
+            <p>1044</p>
+            <span>Followers</span>
+          </div>
+          <div class="card__footer flex">
+            <img src="./images/icon-up.svg" alt="Up Arrow" />
+            <span>99 Today</span>
+          </div>
+        </div>
+        <div class="card card-i flex-center">
+          <div class="card__header flex">
+            <img src="./images/icon-instagram.svg" alt="Instagram Logo" />
+            <span>@realnathanf</span>
+          </div>
+          <div class="card__body">
+            <p>11k</p>
+            <span>Followers</span>
+          </div>
+          <div class="card__footer flex">
+            <img src="./images/icon-up.svg" alt="Up Arrow" />
+            <span>1099 Today</span>
+          </div>
+        </div>
+        <div class="card card-y flex-center">
+          <div class="card__header flex">
+            <img src="./images/icon-youtube.svg" alt="Youtube Logo" />
+            <span>Nathan F.</span>
+          </div>
+          <div class="card__body">
+            <p>8239</p>
+            <span>Subscribers</span>
+          </div>
+          <div class="card__footer flex">
+            <img src="./images/icon-down.svg" alt="Down Arrow" />
+            <span>144 Today</span>
+          </div>
+        </div>
+      </section>
+      <h2 class="overview__title">Overview - Today</h2>
+      <section class="overview">
+        <div class="overview__box">
+          <div class="row-1 flex">
+            <p class="react">Page Views</p>
+            <img src="./images/icon-facebook.svg" alt="Facebook Logo" />
+          </div>
+          <div class="row-2 flex">
+            <p class="number">87</p>
+            <span class="percentage flex">
+              <img src="./images/icon-up.svg" alt="Up Arrow" />
+              <span class="green">3%</span>
+            </span>
+          </div>
+        </div>
+        <div class="overview__box">
+          <div class="row-1 flex">
+            <p class="react">Likes</p>
+            <img src="./images/icon-facebook.svg" alt="Facebook Logo" />
+          </div>
+          <div class="row-2 flex">
+            <p class="number">52</p>
+            <span class="percentage flex">
+              <img src="./images/icon-down.svg" alt="Down Arrow" />
+              <span class="red">2%</span>
+            </span>
+          </div>
+        </div>
+        <div class="overview__box">
+          <div class="row-1 flex">
+            <p class="react">Likes</p>
+            <img src="./images/icon-instagram.svg" alt="Instagram Logo" />
+          </div>
+          <div class="row-2 flex">
+            <p class="number">5462</p>
+            <span class="percentage flex">
+              <img src="./images/icon-up.svg" alt="Up Arrow" />
+              <span class="green">2257%</span>
+            </span>
+          </div>
+        </div>
+        <div class="overview__box">
+          <div class="row-1 flex">
+            <p class="react">Page Views</p>
+            <img src="./images/icon-instagram.svg" alt="Instagram Logo" />
+          </div>
+          <div class="row-2 flex">
+            <p class="number">52k</p>
+            <span class="percentage flex">
+              <img src="./images/icon-up.svg" alt="Up Arrow" />
+              <span class="green">1375%</span>
+            </span>
+          </div>
+        </div>
+        <div class="overview__box">
+          <div class="row-1 flex">
+            <p class="react">Retweets</p>
+            <img src="./images/icon-twitter.svg" alt="Twitter Logo" />
+          </div>
+          <div class="row-2 flex">
+            <p class="number">117</p>
+            <span class="percentage flex">
+              <img src="./images/icon-up.svg" alt="Up Arrow" />
+              <span class="green">303%</span>
+            </span>
+          </div>
+        </div>
+        <div class="overview__box">
+          <div class="row-1 flex">
+            <p class="react">Likes</p>
+            <img src="./images/icon-twitter.svg" alt="Twitter Logo" />
+          </div>
+          <div class="row-2 flex">
+            <p class="number">507</p>
+            <span class="percentage flex">
+              <img src="./images/icon-up.svg" alt="Up Arrow" />
+              <span class="green">553%</span>
+            </span>
+          </div>
+        </div>
+        <div class="overview__box">
+          <div class="row-1 flex">
+            <p class="react">Likes</p>
+            <img src="./images/icon-youtube.svg" alt="Youtube Logo" />
+          </div>
+          <div class="row-2 flex">
+            <p class="number">107</p>
+            <span class="percentage flex">
+              <img src="./images/icon-down.svg" alt="Down Arrow" />
+              <span class="red">19%</span>
+            </span>
+          </div>
+        </div>
+        <div class="overview__box">
+          <div class="row-1 flex">
+            <p class="react">Total Views</p>
+            <img src="./images/icon-youtube.svg" alt="Youtube Logo" />
+          </div>
+          <div class="row-2 flex">
+            <p class="number">1407</p>
+            <span class="percentage flex">
+              <img src="./images/icon-down.svg" alt="Down Arrow" />
+              <span class="red">12%</span>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded with 💗 by
+      <a href="https://www.frontendmentor.io/profile/Ashraf-7">Ashraf</a>.
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
